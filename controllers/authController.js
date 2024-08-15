@@ -16,7 +16,7 @@ exports.signup = async (req, res) => {
   };
   users.push(newUser);
   fs.writeFileSync("users.json", JSON.stringify(users));
-  res.satatus(201).json({
+  res.status(201).json({
     message: "User is successfully registered",
   });
 };

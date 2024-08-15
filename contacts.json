@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "phone": "1234567890",
+    "email": "alice.johnson@example.com",
+    "photo": "uploads/1627891234567-alice.jpg",
+    "userId": "1"
+  },
+  {
+    "id": "2",
+    "name": "Bob Smith",
+    "phone": "0987654321",
+    "email": "bob.smith@example.com",
+    "photo": "uploads/1627891234568-bob.jpg",
+    "userId": "1"
+  },
+  {
+    "id": "eca1282e-f8ce-4f78-92b1-457c3b9c32a3",
+    "name": "dip",
+    "phone": "1234567890",
+    "email": "dip@mail.com",
+    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723735183067-phonepe.png"
+  }
+]
