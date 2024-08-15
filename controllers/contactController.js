@@ -2,6 +2,7 @@ const multer = require("multer");
 const contacts = require("../contacts.json");
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
+const { contactSchema } = require("../middleware/validation");
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -15,7 +16,11 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
+//create a new contact
 exports.createContact = (req, res) => {
+  const { error } = contactSchema.validate(req.body);
+  if (error) return res.status(400).json({ message: error.details[0].message });
+
   const { name, phone, email } = req.body;
   const photo = req.file ? req.file.path : null;
   const newContact = { id: uuidv4(), name, phone, email, photo };
@@ -30,4 +35,22 @@ exports.createContact = (req, res) => {
     }
   );
   res.status(201).json({ message: "conatct created successfully" });
+};
+
+//update a existing contact
+exports.updateContact = (req, res) => {
+  const error = contactSchema.validate(req.body);
+  if (error) return res.status(400).json({ message: error.details[0].message });
+
+  const { id } = req.params;
+  const { name, phone, email } = req.body;
+  const photo = req.file ? req.file.path : null;
+
+  const contactIndex = contacts.findIndex((c = c.id === id));
+  if (contactIndex === -1)
+    return res.status(404).json({ message: "contact not found" });
+
+  contacts[contactIndex] = { id, name, phone, email, photo };
+  fs.writeFileSync("contacts.json", JSON.stringify(contacts));
+  res.status(200).json({ message: "contact updated successfully" });
 };
