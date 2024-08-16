@@ -27,7 +27,7 @@ exports.signup = async (req, res) => {
 
 //authenticatoin for login
 exports.login = async (req, res) => {
-  const { error } = this.loginSchema.validate(req.body);
+  const { error } = loginSchema.validate(req.body);
   if (error) return res.status(400).json({ message: error.details[0].message });
 
   const { username, password } = req.body;
@@ -37,6 +37,6 @@ exports.login = async (req, res) => {
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) return res.status(400).json({ message: "invalid credentials" });
 
-  const token = jwt.sign({ id: user.id }, "secret", { expiresIn: "1h" });
+  const token = jwt.sign({ id: user.id }, "secret", { expiresIn: "2h" });
   res.json({ token });
 };
