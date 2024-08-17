@@ -50,7 +50,8 @@ exports.updateContact = (req, res) => {
 
   const { id } = req.params;
   const { name, phone, email } = req.body;
-  const photo = req.file ? req.file.path : null;
+  // const photo = req.file ? req.file.path : null;
+  const photo = req.file.filename ?? null;
   const userId = req.user.id; // Get the user ID from the token
 
   try {
@@ -68,6 +69,9 @@ exports.updateContact = (req, res) => {
           "Contact not found or you are not authorized to update this contact",
       });
     }
+    // Determine if a new photo has been uploaded
+    const existingPhoto = contacts[contactIndex].photo;
+    const newPhoto = req.file ? req.file.filename : existingPhoto;
 
     // Update the contact
     contacts[contactIndex] = { id, userId, name, phone, email, photo };

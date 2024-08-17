@@ -8,19 +8,19 @@
     "userId": "1"
   },
   {
-    "id": "b3dd73ee-c703-4778-b869-5ed208346471",
+    "id": "d3b3ae96-e247-4d6e-9ab0-89da13d0f4e1",
     "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
-    "name": "nooooo1",
-    "phone": "123",
-    "email": "sdf@gmail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\public\\uploads\\1723877724515-Screenshot 2024-08-15 201436.png"
+    "name": "redux testing",
+    "phone": "7878473909",
+    "email": "suhel@mail.com",
+    "photo": "1723879692967-Screenshot 2024-07-28 174634.png"
   },
   {
-    "id": "86f586d9-951b-47f7-bc41-698e1d03d4f3",
+    "id": "502af9d8-c24b-42ca-b29b-ce540830a42a",
     "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
-    "name": "ewr",
-    "phone": "123",
-    "email": "wer@gmail.com",
-    "photo": null
+    "name": "wefr",
+    "phone": "23",
+    "email": "amirsuhel88@gmail.com",
+    "photo": "1723879402118-Screenshot 2024-07-21 100854.png"
   }
 ]
