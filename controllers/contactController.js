@@ -22,7 +22,9 @@ exports.createContact = (req, res) => {
   if (error) return res.status(400).json({ message: error.details[0].message });
 
   const { name, phone, email } = req.body;
-  const photo = req.file ? req.file.path : null;
+  // const photo = req.file ? req.file.path : null;
+  const photo = req.file.filename ?? null;
+  // console.log(photo);
   const userId = req.user.id; //accessing user id from token
   const newContact = { id: uuidv4(), userId, name, phone, email, photo };
   contacts.push(newContact);

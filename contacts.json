@@ -8,124 +8,19 @@
     "userId": "1"
   },
   {
-    "id": "2",
-    "name": "Bob Smith",
-    "phone": "0987654321",
-    "email": "bob.smith@example.com",
-    "photo": "uploads/1627891234568-bob.jpg",
-    "userId": "1"
-  },
-  {
-    "id": "eca1282e-f8ce-4f78-92b1-457c3b9c32a3",
-    "name": "dip",
-    "phone": "1234567890",
-    "email": "dip@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723735183067-phonepe.png"
-  },
-  {
-    "id": "018ad293-06f2-437a-85ef-07dfe5a229a6",
-    "name": "ram",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723750145237-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "85bebc1f-012e-4b63-9889-89575df51379",
-    "name": "ram",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723750189586-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "ec82318c-36bb-423b-8c1a-617653db82e2",
-    "name": "ram",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723784162398-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "f43d98d3-2e5b-4a1f-ba3a-2127c0b5fa5d",
-    "name": "ram",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723784230706-IMG_20240628_163225.jpg"
-  },
-  {
-    "userId": "318f7dca-7f0a-4e36-8d2e-dffc7ed2ee36",
-    "name": "ramu",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723785065414-IMG_20240628_163225.jpg"
-  },
-  {
-    "userId": "318f7dca-7f0a-4e36-8d2e-dffc7ed2ee36",
-    "name": "ramu2",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723785168048-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "b91c517a-0f19-4c28-9bbe-48aa46a0d35e",
-    "userId": "318f7dca-7f0a-4e36-8d2e-dffc7ed2ee36",
-    "name": "ramu3",
-    "phone": "8789878987",
-    "email": "ram@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723785292869-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "1da77f10-28c5-41f8-a36a-b1ea283e2411",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhel",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723792365644-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "b6e0d0c7-f8f8-419f-8457-32512a29e164",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhel",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723793054827-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "00b3936d-fdf0-4a1a-9215-99e4d5e1f1a4",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhelkjdfh",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723794243692-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "81dcea29-763b-4939-8da0-af4dfac1476a",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhelkjdfh",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723794268127-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "2e50f6bc-4aec-4ba3-8612-015803d88ce1",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhelkjdfh",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723794296847-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "e55d3d6f-4fb3-43c9-83b2-6680157508fc",
-    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
-    "name": "suhelkjdfh",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723794303145-IMG_20240628_163225.jpg"
-  },
-  {
-    "id": "49796714-8058-4980-85a8-71d182b9beac",
+    "id": "b3dd73ee-c703-4778-b869-5ed208346471",
     "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
-    "name": "me testing",
-    "phone": "8789878987",
-    "email": "suhel@mail.com",
-    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\middleware\\uploads\\1723794758718-IMG_20240628_163225.jpg"
+    "name": "nooooo1",
+    "phone": "123",
+    "email": "sdf@gmail.com",
+    "photo": "F:\\MERN\\AtoZdebug\\phone-book\\Backend\\public\\uploads\\1723877724515-Screenshot 2024-08-15 201436.png"
+  },
+  {
+    "id": "86f586d9-951b-47f7-bc41-698e1d03d4f3",
+    "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
+    "name": "ewr",
+    "phone": "123",
+    "email": "wer@gmail.com",
+    "photo": null
   }
 ]
