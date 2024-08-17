@@ -6,11 +6,13 @@ const userSchema = Joi.object({
   email: Joi.string().email().required(),
 });
 
+//login validation
 const loginSchema = Joi.object({
   username: Joi.string().required(),
   password: Joi.string().required(),
 });
 
+//contact validation
 const contactSchema = Joi.object({
   name: Joi.string().required(),
   phone: Joi.string()
