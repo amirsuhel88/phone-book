@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "phone": "1234567890",
+    "email": "alice.johnson@example.com",
+    "photo": "uploads/1627891234567-alice.jpg",
+    "userId": "1"
+  },
+  {
+    "id": "fac3d2c8-964e-4499-9819-879adbb2c7b3",
+    "userId": "43f0e91a-06c6-4406-b2ed-34fe79a4f83e",
+    "name": "amri",
+    "phone": "2342",
+    "email": "slkfj@gmail.com",
+    "photo": "1723884064690-Screenshot 2024-07-28 174634.png"
+  },
+  {
+    "id": "bcc39418-fe44-4432-bc34-808a3aa7b552",
+    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
+    "name": "suman",
+    "phone": "123",
+    "email": "ljkdf@gmail.com",
+    "photo": "1723885191727-Screenshot 2024-07-28 174634.png"
+  },
+  {
+    "id": "1caea52c-cd41-45bf-869d-87481437c6ee",
+    "userId": "a87d8991-c516-4410-8af2-76325717c17a",
+    "name": "slkfj",
+    "phone": "342",
+    "email": "alsjdf@gmail.com",
+    "photo": "1723885216806-Screenshot 2024-07-11 153225.png"
+  },
+  {
+    "id": "fa2487de-e1f4-4889-b6b6-18b89aadfbed",
+    "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
+    "name": "Amir",
+    "phone": "9876543210",
+    "email": "amir@gmail.com",
+    "photo": "1723890616014-Screenshot 2024-08-01 113317.png"
+  },
+  {
+    "id": "35bbe9ce-ac01-4810-bf1b-7476984913e9",
+    "userId": "78f5bb9d-42e4-47cd-99bb-a7d4370cfb5b",
+    "name": "suhell",
+    "phone": "1234567890",
+    "email": "suhel@gmail.com",
+    "photo": "1723890939983-Screenshot 2024-01-08 115327.png"
+  }
+]
